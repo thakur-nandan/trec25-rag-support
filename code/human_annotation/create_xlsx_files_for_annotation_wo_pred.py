@@ -1,9 +1,9 @@
 """
 python create_xlsx_files_for_annotation_wo_pred.py \
-       --runfile_dirs "/mnt/users/n3thakur/2025/projects/2025-trecrag/trec25-rag/runs/anon/gen" "/mnt/users/n3thakur/2025/projects/2025-trecrag/trec25-rag/runs/anon/auggen" \
-       --topics_filepath "/mnt/users/n3thakur/2025/projects/2025-trecrag/trec25-rag/topics/trec25_narratives_final.json" \
-       --output_filedir "/mnt/users/n3thakur/2025/projects/2025-trecrag/support/human_annotation/wo_prediction" \
-       --lucene_index "/mnt/users/n3thakur/cache/indexes/lucene-inverted.msmarco-v2.1-doc-segmented.20240418.4f9675"
+       --runfile_dirs "/store/scratch/n3thakur/trec-rag-2024/trec2024-rag/support_eval/2025/trec25-rag/runs/anon/gen" "/store/scratch/n3thakur/trec-rag-2024/trec2024-rag/support_eval/2025/trec25-rag/runs/anon/auggen" \
+       --topics_filepath "/store/scratch/n3thakur/trec-rag-2024/trec2024-rag/support_eval/2025/trec25-rag/topics/trec25_narratives_final.json" \
+       --output_filedir "/store/scratch/n3thakur/trec25-rag-support/wo_prediction" \
+       --lucene_index "/store/scratch/rpradeep/nuggetizer/data/indexes/lucene-inverted.msmarco-v2.1-doc-segmented"
 """
 
 import argparse
